@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: f2;
+    src: url(Louis\ George\ Cafe\ Bold.ttf);
+}
+
+@font-face {
+    font-family: f1;
+    src: url(LEMONMILK-Bold.otf);
+}
+
+
+@font-face {
+    font-family: f3;
+    src: url(Forque.ttf);
+}
+
+
+body{
+
+background-color:  #fdbf5c  ;
+
+}
+
+#converte-dolar{
+
+
+display: grid;
+}
+
+label{
+    color: whitesmoke;
+    text-shadow: 2px 2px 1px black;
+font-family: f2;
+    }
+
+
+
+#real{
+height: 5rem;
+    display: grid;
+}
+
+#convertido{
+
+    font-family: f1;
+    width: 10rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 1px black;
+
+}
+
+    #seta{
+
+width: 5rem;
+height: 5rem;
+
+    }
+
+#preal{
+    color: whitesmoke;
+    text-shadow: 2px 2px 1px black;
+font-family: f2;
+
+}
+
+#converter{
+ 
+    font-family: f2;
+    font-size: larger;
+border-radius: 10px;
+border: none;
+padding: 5px;
+width: 6rem;
+margin: 5%;
+}
+
+
+#btn1{
+   
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 26px;
+    font-family: f1;
+    font-size: x-small;
+    width: 40px;
+    
+display: none;
+}
+
+#label1:before{
+
+    content: "";
+    
+
+    position: absolute;
+    
+    width: 28px;
+    
+    height: 28px;
+    
+    border-radius: 50%;
+    
+    background-color: rgb(255, 247, 133);
+    
+    margin-top: -6px;
+    
+    margin-left: 0px;
+    
+    transition: 0.3s;
+    
+    background-image: url(sol.png);
+    
+    background-size: cover;
+    
+
+
+    }
+
+#label1{
+    padding: 7px;
+padding-right: 70px;
+
+    width: 100px;
+    height: 30px;
+    background-color: rgb(137, 198, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+margin-left: -10rem;
+margin-right: 10rem;
+}
+
+
+#btn1:checked + #label1:before{
+
+
+    
+    transform: translateX(32px);
+    
+    transition: 0.3s;
+
+    background-image: url(lua.png);
+
+background-color: rgb(255, 255, 255);
+
+}
+
+
+
+.v1{
+
+    animation: animation 1s ;
+    
+    }
+    
+    .dark-mode{
+    
+    background-color: rgb(56, 56, 56);
+    
+    }
+    
+    .l1{
+    
+        background-color: rgb(146, 146, 146);
+        color: rgb(248, 223, 176);
+     font-size: 0.98rem;
+        }
+    
+    
+
+
+#btn1:checked + #label1{
+
+
+    
+    transform: translateX(32px);
+    
+    transition: 0.3s;
+
+    background-image: url(lua.png);
+
+background-color: rgb(68, 68, 68);
+
+}
+
+
+
+
+.btn2{
+background-color: rgb(172, 172, 172);
+
+}
+
+    #container{
+       background-color: #9b0800;
+margin: 10%;
+display: flex;
+justify-content: space-around;
+height: 10rem;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 39.2vh;
+}
+
+#dolar{
+font-family: f1;
+width: 10rem;
+padding: 10px;
+
+border-radius: 10px;
+border: none;
+box-shadow: 4px 4px 1px black;
+}
+
+header{
+display: flex;
+background-color:  #f69a0b;
+padding: 10px;
+justify-content: center;
+font-family: f2;
+}
+
+footer{
+
+
+background-color:#d43a00 ;
+padding: 10px;
+font-family: f2;
+}
